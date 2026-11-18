@@ -8,7 +8,39 @@
 @keyframes shootingStar{0%,78%{opacity:0;translate:0 0}80%{opacity:.7}91%,100%{opacity:0;translate:420px -290px}}@keyframes starScatter{from{opacity:1;transform:translate(-50%,-50%) scale(1.3)}to{opacity:0;transform:translate(calc(-50% + var(--dx)),calc(-50% + var(--dy))) scale(.2)}}@keyframes cosmicWave{from{opacity:.8;transform:translate(-50%,-50%) scale(.1)}to{opacity:0;transform:translate(-50%,-50%) scale(8)}}@keyframes planetAtmosphere{0%,100%{background-position:0 0,0% 40%}50%{background-position:0 0,100% 65%}}@keyframes nebulaDrift{from{opacity:.65;transform:translate(-3%,0) scale(.95)}to{opacity:1;transform:translate(3%,4%) scale(1.12)}}@keyframes launchReveal{from{opacity:0;translate:0 22px;filter:blur(4px)}to{opacity:1;translate:0 0;filter:blur(0)}}@keyframes storyArrival{from{opacity:.1;transform:translateY(14px)}to{opacity:1;transform:translateY(0)}}@keyframes missionOpen{from{opacity:0;transform:translateY(22px) scale(.93)}to{opacity:1;transform:translateY(0) scale(1)}}
 .paused .meteor-sky{visibility:hidden}.paused .click-star,.paused .click-wave{display:none}@media(prefers-reduced-motion:reduce){.meteor-sky,.click-star,.click-wave{display:none}.hero-copy>*{opacity:1;filter:none;translate:none}.asteroid-belt{animation:none}}@media(max-width:700px){.meteor{width:85px}.asteroid-belt{inset:65px}}
 @media(max-width:700px){.nav-links{gap:12px}.nav-links a[href="#milestones"]{display:none}}
-</style></head><body><a class="skip" href="#main">Skip to content</a><canvas id="stars" aria-hidden="true"></canvas><canvas id="warp" aria-hidden="true"></canvas><div class="nebula"></div><div class="wrap"><nav aria-label="Main navigation"><a href="#home" class="logo" data-warp><span class="logo-icon" aria-hidden="true"></span>SV.D</a><div class="nav-links"><a href="#workshop" data-warp>First workshop</a><a href="#education" data-warp>Education</a><a href="#milestones" data-warp>Milestones</a><a href="#universe" data-warp>My universe</a></div><button class="motion" id="motion" aria-pressed="false">Ⅱ Pause motion</button></nav><main id="main"><section class="hero" id="home"><div class="hero-copy"><div class="eyebrow">Welcome to my little universe</div><h1>Sri Varshini<span>Digamarthi.</span></h1><div class="signature">A curious mind. An expanding universe.</div><p class="lead">Every journey starts with a spark.<br>Mine is a growing collection of ideas, discoveries, and first steps worth sharing.</p><a class="cta" href="#workshop" data-warp>Explore my journey <span aria-hidden="true">↗</span></a></div><div class="universe" aria-hidden="true"><div class="orbit"></div><div class="orbit second"></div><div class="orbiter"><div class="moon"></div></div><div class="orbiter second"><div class="moon"></div></div><div class="main-planet"></div><div class="ring"></div><div class="planet-label">THE UNIVERSE IS EXPANDING.<br>SO AM I.</div></div><div class="hero-bottom"><div class="coordinates"><span>PERSONAL ORBIT / 001</span><span>LEARNING HAS NO LIMITS</span></div><a href="#workshop" data-warp>SCROLL TO DISCOVER ↓</a></div></section><section class="section" id="workshop"><div class="section-heading reveal"><div><div class="eyebrow">01 / My first launch</div><h2>A first workshop.<br><span>A world of possibility.</span></h2></div><p>The beginning of my creative journey.<br>One experience. A whole new perspective.</p></div><article class="project reveal"><div class="project-visual"><span class="badge">FIRST WORKSHOP / WORLD JOB CONNECT</span><div class="earth-orbit" aria-hidden="true"></div><div class="earth" role="img" aria-label="Illustrated planet Earth surrounded by an orbit"></div><div class="visual-bottom"><span>IDEAS WITHOUT BORDERS</span><span>↗ 001</span></div></div><div class="project-copy"><span class="pill">First workshop</span><span class="pill">World Job Connect</span><h3>World Job<br>Connect.</h3><p>Connecting talent to opportunities, beyond borders. In my first workshop, our team explored a career platform for students, fresh graduates, and job seekers—focused on trusted opportunities, clearer guidance, and better skill matching.</p><p><strong style="color:var(--fg);font-weight:500">My learning:</strong> Website creation, creative thinking, and exploring innovative ideas that could help people.</p><button class="project-button" id="open-project" data-warp>Explore this chapter <span aria-hidden="true">↗</span></button></div></article></section><section class="section" id="education"><div class="section-heading reveal"><div><div class="eyebrow">My academic orbit</div><h2>Learning today.<br><span>Building tomorrow.</span></h2></div><p>My university journey in computer science and engineering.</p></div><article class="project reveal"><div class="project-visual" style="min-height:280px"><div class="earth-orbit" aria-hidden="true"></div><div class="earth" aria-hidden="true" style="width:155px;height:155px"></div><div class="visual-bottom"><span>EDUCATION / CURRENT CHAPTER</span><span>CSE</span></div></div><div class="project-copy"><span class="pill">Currently studying</span><span class="pill">CSE</span><h3>Aditya University</h3><p>I'm studying Computer Science and Engineering at Aditya University. This is the academic chapter of my story, alongside the workshop experiences and milestones shared in this portfolio.</p></div></article><article class="milestone reveal" style="margin-top:24px;min-height:auto"><div class="mini-planet" aria-hidden="true"></div><div class="label">Intermediate / Completed</div><h3 style="font:500 clamp(23px,3vw,34px)/1.3 'Space Grotesk',Arial,sans-serif;letter-spacing:-1px;max-width:75%;margin:24px 0 14px">Tirumala IIT and Medical Academy</h3><p style="font-size:13px;line-height:1.9">I completed my Intermediate education at Tirumala IIT and Medical Academy.</p><span class="pill">Intermediate marks: 989</span></article></section><section class="section" id="skills"><div class="section-heading reveal"><div><div class="eyebrow">Skills / Currently learning</div><h2>New skills.<br><span>New possibilities.</span></h2></div><p>Two subjects I'm learning as my journey continues.</p></div><div class="milestones" style="grid-template-columns:repeat(auto-fit,minmax(min(250px,100%),1fr))"><article class="milestone reveal"><div class="mini-planet" aria-hidden="true"></div><div class="label">Programming</div><h3 style="font:500 34px 'Space Grotesk',Arial,sans-serif;margin:35px 0 16px">C Programming</h3><span class="pill">Currently learning</span><p style="font-size:13px;line-height:1.8">Developing my foundation in C programming.</p></article><article class="milestone reveal"><div class="mini-planet" aria-hidden="true"></div><div class="label">Data &amp; visualization</div><h3 style="font:500 34px 'Space Grotesk',Arial,sans-serif;margin:35px 0 16px">Power BI</h3><span class="pill">Currently learning</span><p style="font-size:13px;line-height:1.8">Exploring Power BI and data visualization.</p></article></div></section><section class="section" id="milestones"><div class="section-heading reveal"><div><div class="eyebrow">02 / Stars along the way</div><h2>Small steps.<br><span>Bright milestones.</span></h2></div><p>Academic moments that form part of my story—and fuel the next chapter.</p></div><div class="milestones"><article class="milestone reveal"><div class="mini-planet" aria-hidden="true"></div><div class="label">Mains</div><div class="value">91.9<small>%</small></div><p>My Mains percentage</p></article><article class="milestone reveal"><div class="mini-planet" aria-hidden="true"></div><div class="label">EAMCET</div><div class="value">9,151</div><p>My EAMCET rank</p></article><article class="milestone reveal"><div class="mini-planet" aria-hidden="true"></div><div class="label">Intermediate</div><div class="value">989</div><p>My Intermediate marks</p></article></div></section><section class="section" id="universe"><div class="section-heading reveal"><div><div class="eyebrow">03 / A universe in the making</div><h2>More to discover.<br><span>More to become.</span></h2></div><p>Select a planet to explore a different part of my journey.</p></div><div class="explore-grid reveal"><div class="map" aria-label="Explore journey planets"><div class="map-line" aria-hidden="true"></div><button class="interest" data-planet="beginnings" aria-pressed="true" data-warp><span class="sphere" aria-hidden="true"></span>BEGINNINGS</button><button class="interest" data-planet="milestones" aria-pressed="false" data-warp><span class="sphere" aria-hidden="true"></span>MILESTONES</button><button class="interest" data-planet="beyond" aria-pressed="false" data-warp><span class="sphere" aria-hidden="true"></span>WHAT’S NEXT</button></div><div class="interest-copy" aria-live="polite" aria-atomic="true"><span class="chapter" id="planet-number">PLANET 01 / BEGINNINGS</span><h3 id="planet-title">Every first step matters.</h3><p id="planet-description">World Job Connect is my first workshop. Our team explored a career platform centered on trust, affordable access, and connecting skills to opportunities. We followed the design-thinking journey from empathy to testing.</p></div></div></section><section class="closing reveal"><div class="eyebrow">My journey is just beginning</div><h2>My journey has just begun,<br><span>but my dreams and ambitions are limitless.</span></h2><div style="max-width:750px;margin:30px auto;text-align:center"><p style="font-size:clamp(14px,1.5vw,17px);line-height:2;color:#c5bbd6">I believe that every expert was once a beginner. With curiosity, dedication, and continuous learning, I aim to grow into a skilled professional and contribute to the world of technology.</p><p style="font-size:clamp(13px,1.3vw,15px);line-height:2;margin-top:24px">I am a beginner in the world of technology, taking my first steps toward a successful career. Every day is an opportunity to learn, explore, and improve. I may be at the starting point today, but I am determined to turn my passion into achievements and my ideas into reality.</p></div><button class="cta" id="copy-link" data-warp>Share my universe <span aria-hidden="true">↗</span></button><div id="link-status" role="status"></div></section></main><footer><span>SRI VARSHINI DIGAMARTHI</span><span>A FIRST PORTFOLIO · AN EXPANDING STORY</span><a href="#home" data-warp>BACK TO ORBIT ↑</a></footer></div><dialog id="project-dialog" aria-labelledby="dialog-title"><button class="close" id="close-project" aria-label="Close workshop story">×</button><div class="eyebrow">Mission log / 001</div><h2 id="dialog-title">World Job Connect</h2><p>Discover. Connect. Grow. World Job Connect is the first workshop project I wanted to share in this portfolio. Our team, Tech Titans, explored how a career platform could connect talent with opportunities beyond borders.</p><h3>The problem we explored</h3><p>Students, fresh graduates, and job seekers can struggle to find suitable opportunities because of limited career guidance, unclear skill requirements, and difficulty accessing employment platforms. Our poster also identifies fake job notifications, high application fees, and limited salary transparency.</p><h3>Our proposed direction</h3><p>A single platform for job seekers, employers, students, and freshers. The ideas in our workshop poster include verified employer information, zero candidate application fees, government and private vacancies, certificate verification, and smarter job matching. These are proposed project goals.</p><h3>How we approached it</h3><p>Empathize → Define → Ideate → Prototype → Test. We began by understanding the needs of job seekers and employers, with trust, affordable access, career development, and global opportunities at the center.</p><h3>What I learned</h3><p>Through this workshop, I gained an understanding of how to create a website. I also learned to think creatively and innovatively about ideas that could be useful to many people.</p><h3>Our workshop message</h3><p>“Your Skills. Your Dreams. Your Global Career.”</p><a class="cta" href="#milestones" id="dialog-next" data-warp>See my milestones <span>↗</span></a></dialog><script>
+
+/* Cosmic glow for headings */
+@keyframes cosmicGlow {
+  0%, 100% {
+    text-shadow: 0 0 5px #a78bfa;
+  }
+  50% {
+    text-shadow: 0 0 22px #c4b5fd;
+  }
+}
+
+h1, h2 {
+  animation: cosmicGlow 4s ease-in-out infinite;
+}
+
+/* Smooth glowing buttons */
+button, .btn, a[class*="btn"] {
+  transition: transform 0.3s ease,
+              box-shadow 0.3s ease;
+}
+
+button:hover, .btn:hover,
+a[class*="btn"]:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 0 25px rgba(167,139,250,0.5);
+}
+
+/* Accessibility */
+@media (prefers-reduced-motion: reduce) {
+  h1, h2 {
+    animation: none;
+  }
+}</style></head><body><a class="skip" href="#main">Skip to content</a><canvas id="stars" aria-hidden="true"></canvas><canvas id="warp" aria-hidden="true"></canvas><div class="nebula"></div><div class="wrap"><nav aria-label="Main navigation"><a href="#home" class="logo" data-warp><span class="logo-icon" aria-hidden="true"></span>SV.D</a><div class="nav-links"><a href="#workshop" data-warp>First workshop</a><a href="#education" data-warp>Education</a><a href="#milestones" data-warp>Milestones</a><a href="#universe" data-warp>My universe</a></div><button class="motion" id="motion" aria-pressed="false">Ⅱ Pause motion</button></nav><main id="main"><section class="hero" id="home"><div class="hero-copy"><div class="eyebrow">Welcome to my little universe</div><h1>Sri Varshini<span>Digamarthi.</span></h1><div class="signature">A curious mind. An expanding universe.</div><p class="lead">Every journey starts with a spark.<br>Mine is a growing collection of ideas, discoveries, and first steps worth sharing.</p><a class="cta" href="#workshop" data-warp>Explore my journey <span aria-hidden="true">↗</span></a></div><div class="universe" aria-hidden="true"><div class="orbit"></div><div class="orbit second"></div><div class="orbiter"><div class="moon"></div></div><div class="orbiter second"><div class="moon"></div></div><div class="main-planet"></div><div class="ring"></div><div class="planet-label">THE UNIVERSE IS EXPANDING.<br>SO AM I.</div></div><div class="hero-bottom"><div class="coordinates"><span>PERSONAL ORBIT / 001</span><span>LEARNING HAS NO LIMITS</span></div><a href="#workshop" data-warp>SCROLL TO DISCOVER ↓</a></div></section><section class="section" id="workshop"><div class="section-heading reveal"><div><div class="eyebrow">01 / My first launch</div><h2>A first workshop.<br><span>A world of possibility.</span></h2></div><p>The beginning of my creative journey.<br>One experience. A whole new perspective.</p></div><article class="project reveal"><div class="project-visual"><span class="badge">FIRST WORKSHOP / WORLD JOB CONNECT</span><div class="earth-orbit" aria-hidden="true"></div><div class="earth" role="img" aria-label="Illustrated planet Earth surrounded by an orbit"></div><div class="visual-bottom"><span>IDEAS WITHOUT BORDERS</span><span>↗ 001</span></div></div><div class="project-copy"><span class="pill">First workshop</span><span class="pill">World Job Connect</span><h3>World Job<br>Connect.</h3><p>Connecting talent to opportunities, beyond borders. In my first workshop, our team explored a career platform for students, fresh graduates, and job seekers—focused on trusted opportunities, clearer guidance, and better skill matching.</p><p><strong style="color:var(--fg);font-weight:500">My learning:</strong> Website creation, creative thinking, and exploring innovative ideas that could help people.</p><button class="project-button" id="open-project" data-warp>Explore this chapter <span aria-hidden="true">↗</span></button></div></article></section><section class="section" id="education"><div class="section-heading reveal"><div><div class="eyebrow">My academic orbit</div><h2>Learning today.<br><span>Building tomorrow.</span></h2></div><p>My university journey in computer science and engineering.</p></div><article class="project reveal"><div class="project-visual" style="min-height:280px"><div class="earth-orbit" aria-hidden="true"></div><div class="earth" aria-hidden="true" style="width:155px;height:155px"></div><div class="visual-bottom"><span>EDUCATION / CURRENT CHAPTER</span><span>CSE</span></div></div><div class="project-copy"><span class="pill">Currently studying</span><span class="pill">CSE</span><h3>Aditya University</h3><p>I'm studying Computer Science and Engineering at Aditya University. This is the academic chapter of my story, alongside the workshop experiences and milestones shared in this portfolio.</p></div></article><article class="milestone reveal" style="margin-top:24px;min-height:auto"><div class="mini-planet" aria-hidden="true"></div><div class="label">Intermediate / Completed</div><h3 style="font:500 clamp(23px,3vw,34px)/1.3 'Space Grotesk',Arial,sans-serif;letter-spacing:-1px;max-width:75%;margin:24px 0 14px">Tirumala IIT and Medical Academy</h3><p style="font-size:13px;line-height:1.9">I completed my Intermediate education at Tirumala IIT and Medical Academy.</p><span class="pill">Intermediate marks: 989</span></article></section><section class="section" id="skills"><div class="section-heading reveal"><div><div class="eyebrow">Skills / Currently learning</div><h2>New skills.<br><span>New possibilities.</span></h2></div><p>Two subjects I'm learning as my journey continues.</p></div><div class="milestones" style="grid-template-columns:repeat(auto-fit,minmax(min(250px,100%),1fr))"><article class="milestone reveal"><div class="mini-planet" aria-hidden="true"></div><div class="label">Programming</div><h3 style="font:500 34px 'Space Grotesk',Arial,sans-serif;margin:35px 0 16px">C Programming</h3><span class="pill">Currently learning</span><p style="font-size:13px;line-height:1.8">Developing my foundation in C programming.</p></article><article class="milestone reveal"><div class="mini-planet" aria-hidden="true"></div><div class="label">Data &amp; visualization</div><h3 style="font:500 34px 'Space Grotesk',Arial,sans-serif;margin:35px 0 16px">Power BI</h3><span class="pill">Currently learning</span><p style="font-size:13px;line-height:1.8">Exploring Power BI and data visualization.</p></article></div></section><section class="section" id="milestones"><div class="section-heading reveal"><div><div class="eyebrow">02 / Stars along the way</div><h2>Small steps.<br><span>Bright milestones.</span></h2></div><p>Academic moments that form part of my story—and fuel the next chapter.</p></div><div class="milestones"><article class="milestone reveal"><div class="mini-planet" aria-hidden="true"></div><div class="label">Mains</div><div class="value">91.9<small>%</small></div><p>My Mains percentage</p></article><article class="milestone reveal"><div class="mini-planet" aria-hidden="true"></div><div class="label">EAMCET</div><div class="value">9,151</div><p>My EAMCET rank</p></article><article class="milestone reveal"><div class="mini-planet" aria-hidden="true"></div><div class="label">Intermediate</div><div class="value">989</div><p>My Intermediate marks</p></article></div></section><section class="section" id="universe"><div class="section-heading reveal"><div><div class="eyebrow">03 / A universe in the making</div><h2>More to discover.<br><span>More to become.</span></h2></div><p>Select a planet to explore a different part of my journey.</p></div><div class="explore-grid reveal"><div class="map" aria-label="Explore journey planets"><div class="map-line" aria-hidden="true"></div><button class="interest" data-planet="beginnings" aria-pressed="true" data-warp><span class="sphere" aria-hidden="true"></span>BEGINNINGS</button><button class="interest" data-planet="milestones" aria-pressed="false" data-warp><span class="sphere" aria-hidden="true"></span>MILESTONES</button><button class="interest" data-planet="beyond" aria-pressed="false" data-warp><span class="sphere" aria-hidden="true"></span>WHAT’S NEXT</button></div><div class="interest-copy" aria-live="polite" aria-atomic="true"><span class="chapter" id="planet-number">PLANET 01 / BEGINNINGS</span><h3 id="planet-title">Every first step matters.</h3><p id="planet-description">World Job Connect is my first workshop. Our team explored a career platform centered on trust, affordable access, and connecting skills to opportunities. We followed the design-thinking journey from empathy to testing.</p></div></div></section><section class="closing reveal"><div class="eyebrow">My journey is just beginning</div><h2>My journey has just begun,<br><span>but my dreams and ambitions are limitless.</span></h2><div style="max-width:750px;margin:30px auto;text-align:center"><p style="font-size:clamp(14px,1.5vw,17px);line-height:2;color:#c5bbd6">I believe that every expert was once a beginner. With curiosity, dedication, and continuous learning, I aim to grow into a skilled professional and contribute to the world of technology.</p><p style="font-size:clamp(13px,1.3vw,15px);line-height:2;margin-top:24px">I am a beginner in the world of technology, taking my first steps toward a successful career. Every day is an opportunity to learn, explore, and improve. I may be at the starting point today, but I am determined to turn my passion into achievements and my ideas into reality.</p></div><button class="cta" id="copy-link" data-warp>Share my universe <span aria-hidden="true">↗</span></button><div id="link-status" role="status"></div></section></main><footer><span>SRI VARSHINI DIGAMARTHI</span><span>A FIRST PORTFOLIO · AN EXPANDING STORY</span><a href="#home" data-warp>BACK TO ORBIT ↑</a></footer></div><dialog id="project-dialog" aria-labelledby="dialog-title"><button class="close" id="close-project" aria-label="Close workshop story">×</button><div class="eyebrow">Mission log / 001</div><h2 id="dialog-title">World Job Connect</h2><p>Discover. Connect. Grow. World Job Connect is the first workshop project I wanted to share in this portfolio. Our team, Tech Titans, explored how a career platform could connect talent with opportunities beyond borders.</p><h3>The problem we explored</h3><p>Students, fresh graduates, and job seekers can struggle to find suitable opportunities because of limited career guidance, unclear skill requirements, and difficulty accessing employment platforms. Our poster also identifies fake job notifications, high application fees, and limited salary transparency.</p><h3>Our proposed direction</h3><p>A single platform for job seekers, employers, students, and freshers. The ideas in our workshop poster include verified employer information, zero candidate application fees, government and private vacancies, certificate verification, and smarter job matching. These are proposed project goals.</p><h3>How we approached it</h3><p>Empathize → Define → Ideate → Prototype → Test. We began by understanding the needs of job seekers and employers, with trust, affordable access, career development, and global opportunities at the center.</p><h3>What I learned</h3><p>Through this workshop, I gained an understanding of how to create a website. I also learned to think creatively and innovatively about ideas that could be useful to many people.</p><h3>Our workshop message</h3><p>“Your Skills. Your Dreams. Your Global Career.”</p><a class="cta" href="#milestones" id="dialog-next" data-warp>See my milestones <span>↗</span></a></dialog><script>
 (() => {
 const reduced = matchMedia('(prefers-reduced-motion: reduce)');
 let paused = reduced.matches, width=0,height=0,points=[],burst=0,last=0,tick=0;
@@ -39,4 +71,194 @@ document.querySelectorAll('.milestone').forEach(card=>card.addEventListener('poi
 const story=document.querySelector('.interest-copy');document.querySelectorAll('[data-planet]').forEach(button=>button.addEventListener('click',()=>{if(!canMove())return;story.classList.remove('story-arriving');requestAnimationFrame(()=>{if(canMove())story.classList.add('story-arriving')})}));story.addEventListener('animationend',()=>story.classList.remove('story-arriving'));
 const universe=document.querySelector('.universe');let movePending=false,px=0,py=0;document.querySelector('.hero').addEventListener('pointermove',e=>{if(!canMove()||e.pointerType!=='mouse')return;const r=e.currentTarget.getBoundingClientRect();px=(e.clientX-r.left-r.width/2)/r.width*12;py=(e.clientY-r.top-r.height/2)/r.height*10;if(!movePending){movePending=true;requestAnimationFrame(()=>{if(canMove())universe.style.translate=px+'px '+py+'px';movePending=false})}});document.querySelector('.hero').addEventListener('pointerleave',()=>{universe.style.translate='0 0'});
 new MutationObserver(()=>{if(!canMove()){universe.style.translate='0 0';transient.forEach(p=>p.remove());transient.clear()}}).observe(document.body,{attributes:true,attributeFilter:['class']});
-})();</script></body></html>
+})();</script>
+<style>
+  .skills-section {
+    position: relative;
+    z-index: 2;
+    padding: 80px 8%;
+    color: #f1f0fc;
+    text-align: center;
+  }
+
+  .skills-section h2 {
+    font-size: clamp(30px, 5vw, 48px);
+    margin-bottom: 15px;
+  }
+
+  .skills-intro {
+    color: #b9b2ce;
+    margin-bottom: 35px;
+  }
+
+  .skills-grid {
+    display: grid;
+    grid-template-columns:
+      repeat(auto-fit, minmax(210px, 1fr));
+    gap: 22px;
+    max-width: 1050px;
+    margin: auto;
+  }
+
+  .skill-card {
+    background: rgba(167, 139, 250, 0.08);
+    border: 1px solid rgba(196, 181, 253, 0.3);
+    border-radius: 20px;
+    padding: 30px 20px;
+    transition: transform 0.3s,
+                box-shadow 0.3s;
+  }
+
+  .skill-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 0 30px
+      rgba(167, 139, 250, 0.35);
+  }
+
+  .skill-icon {
+    font-size: 38px;
+    margin-bottom: 15px;
+  }
+
+  .skill-card h3 {
+    margin-bottom: 10px;
+  }
+
+  .skill-card p {
+    color: #b9b2ce;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .skill-card {
+      transition: none;
+    }
+  }
+</style>
+
+<section class="skills-section" id="skills">
+  <h2>My Skills & Technologies</h2>
+  <p class="skills-intro">
+    Exploring, learning, and growing every day.
+  </p>
+
+  <div class="skills-grid">
+    <div class="skill-card">
+      <div class="skill-icon">💻</div>
+      <h3>C Programming</h3>
+      <p>Learning programming fundamentals</p>
+    </div>
+
+    <div class="skill-card">
+      <div class="skill-icon">📊</div>
+      <h3>Power BI</h3>
+      <p>Exploring data visualization</p>
+    </div>
+
+    <div class="skill-card">
+      <div class="skill-icon">🌐</div>
+      <h3>Website Development</h3>
+      <p>Building creative websites</p>
+    </div>
+
+    <div class="skill-card">
+      <div class="skill-icon">💡</div>
+      <h3>Creative Thinking</h3>
+      <p>Developing innovative ideas</p>
+    </div>
+  </div>
+</section>
+<style>
+.education-journey {
+  position: relative;
+  z-index: 2;
+  padding: 90px 8%;
+  color: #f1f0fc;
+  text-align: center;
+}
+
+.education-journey h2 {
+  font-size: clamp(30px, 5vw, 48px);
+  margin-bottom: 15px;
+}
+
+.education-timeline {
+  max-width: 750px;
+  margin: 45px auto 0;
+  padding-left: 30px;
+  border-left: 2px solid #a78bfa;
+  text-align: left;
+}
+
+.education-card {
+  position: relative;
+  padding: 28px;
+  margin-bottom: 30px;
+  border-radius: 20px;
+  background: rgba(167,139,250,0.09);
+  border: 1px solid rgba(196,181,253,0.35);
+  transition: transform 0.3s,
+              box-shadow 0.3s;
+}
+
+.education-card::before {
+  content: "";
+  position: absolute;
+  left: -39px;
+  top: 35px;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: #c4b5fd;
+  box-shadow: 0 0 18px #a78bfa;
+}
+
+.education-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 28px rgba(167,139,250,0.3);
+}
+
+.education-card h3 {
+  margin: 10px 0;
+}
+
+.education-card p {
+  color: #c4bfd6;
+  line-height: 1.7;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .education-card {
+    transition: none;
+  }
+}
+</style>
+
+<section class="education-journey" id="education-journey">
+  <h2>My Education Journey 🎓</h2>
+  <p>Every step brings me closer to my dreams.</p>
+
+  <div class="education-timeline">
+    <div class="education-card">
+      <span>🚀 Currently Pursuing</span>
+      <h3>Aditya University</h3>
+      <p>
+        Bachelor of Technology (B.Tech)
+        in Computer Science and Engineering.
+      </p>
+      <p>
+        Exploring programming, technology,
+        and innovative ideas.
+      </p>
+    </div>
+
+    <div class="education-card">
+      <span>✨ Completed</span>
+      <h3>Tirumala IIT & Medical Academy</h3>
+      <p>Intermediate Education</p>
+      <p>
+        Built a strong academic foundation
+        and developed an interest in technology.
+      </p>
+    </div>
+  </div>
+</section></body></html>
